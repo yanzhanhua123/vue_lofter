@@ -1,0 +1,91 @@
+a {
+  -webkit-tap-highlight-color: transparent; }
+
+header {
+  height: 4rem;
+  display: flex;
+  background: linear-gradient(#cdd2d6, #e4e9ea); }
+  header .touxiang {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 1rem 0 0 .4rem;
+    border-radius: 50%; }
+  header .name {
+    width: 5.9rem;
+    margin-left: .48rem; }
+    header .name h5 {
+      font: .5rem/.5rem "";
+      padding: 1.14rem 0 .4rem; }
+    header .name h6 {
+      font: .4rem/.4rem "";
+      color: #666; }
+    header .name p {
+      font: .4rem/.4rem "";
+      padding-top: .4rem;
+      color: #555555; }
+      header .name p b {
+        color: #000;
+        margin: 0 .3rem; }
+  header .more {
+    width: .25rem;
+    background: url("../img/small/w01.png") no-repeat center;
+    background-size: .24rem auto;
+    margin-left: .5rem; }
+
+#fuli {
+  height: 2.7rem;
+  display: flex;
+  border-top: .01rem solid #cccccc;
+  border-bottom: .01rem solid #cccccc; }
+  #fuli .left {
+    flex: 50%;
+    border-right: .01rem solid #cccccc; }
+    #fuli .left img {
+      float: left;
+      width: 1.51rem;
+      margin: .6rem 0 0 .47rem; }
+    #fuli .left div {
+      float: left;
+      padding: .84rem 0 0 .33rem; }
+      #fuli .left div h4 {
+        font: .43rem/.43rem ""; }
+      #fuli .left div h5 {
+        width: 1.2rem;
+        height: .4rem;
+        background: url("../img/small/w04.png") no-repeat center;
+        background-size: 1.02rem auto;
+        margin-top: .32rem; }
+  #fuli .right {
+    flex: 50%; }
+    #fuli .right img {
+      float: left;
+      width: 1.51rem;
+      margin: .6rem 0 0 .47rem; }
+    #fuli .right div {
+      float: left;
+      padding: .84rem 0 0 .33rem; }
+      #fuli .right div h4 {
+        font: .43rem/.43rem ""; }
+      #fuli .right div h5 {
+        width: 2.85rem;
+        height: .4rem;
+        font: .35rem "";
+        margin-top: .32rem; }
+
+#set li {
+  height: 1.5rem;
+  display: flex; }
+  #set li img {
+    width: .66rem;
+    height: .66rem;
+    margin: .45rem .5rem; }
+  #set li a {
+    flex: 1;
+    font: .5rem "";
+    line-height: 1.5rem;
+    color: #000;
+    border-bottom: .01rem solid #cdd2d6;
+    background: url("../img/small/w09.png") no-repeat 8.53rem 0.55rem;
+    background-size: .23rem auto; }
+
+/*# sourceMappingURL=wode.css.map */

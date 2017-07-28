@@ -1,0 +1,110 @@
+@charset "UTF-8";
+body {
+  margin-bottom: 1.5rem;
+  padding-top: 1.24rem;
+  background: #f3f5f4; }
+
+header {
+  height: 1.24rem;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  background: #fff; }
+  header a:nth-child(1) {
+    width: 3.62rem;
+    font: 0.5rem/1.24rem "";
+    text-align: center;
+    margin-left: 1.8rem; }
+  header a:nth-child(2) {
+    width: 3.62rem;
+    font: 0.5rem/1.24rem "";
+    text-align: center;
+    border-bottom: .02rem solid #000000; }
+  header a:nth-child(3) {
+    width: .6rem;
+    height: .47rem;
+    margin-left: .7rem;
+    margin-top: .42rem; }
+    header a:nth-child(3) img {
+      display: block;
+      width: 100%; }
+
+/*我的订阅*/
+#wode {
+  background: #fff;
+  margin-top: .44rem; }
+  #wode h4 {
+    font: .47rem/1.2rem "";
+    height: 1.2rem;
+    color: #666666;
+    text-indent: .48rem;
+    border-bottom: .01rem solid #cccccc; }
+  #wode ul li:last-child p {
+    border: 0; }
+  #wode ul li a {
+    display: block;
+    padding-left: .45rem;
+    zoom: 1; }
+    #wode ul li a:after {
+      content: "";
+      clear: both;
+      display: block; }
+    #wode ul li a img {
+      float: left;
+      width: 1.2rem;
+      margin-top: .3rem; }
+    #wode ul li a p {
+      font: .44rem/1.78rem "";
+      float: right;
+      width: 8.7rem;
+      height: 1.78rem;
+      border-bottom: .01rem solid #ccc;
+      color: #000; }
+
+.more {
+  display: block;
+  font: .46rem/1.2rem "";
+  text-align: center;
+  color: #000;
+  background: #fff;
+  margin-top: .45rem; }
+
+footer {
+  height: 1.5rem;
+  background: #fdfffe;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 50; }
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%; }
+    footer ul li {
+      position: relative;
+      width: .65rem; }
+      footer ul li:nth-child(2) {
+        width: .82rem; }
+        footer ul li:nth-child(2) img {
+          width: .82rem; }
+      footer ul li:nth-child(3) {
+        width: .91rem; }
+        footer ul li:nth-child(3) img {
+          width: .91rem; }
+      footer ul li a {
+        display: block;
+        padding-top: .23rem; }
+        footer ul li a img {
+          display: block;
+          width: .6rem;
+          margin: 0 auto; }
+        footer ul li a p {
+          text-align: center;
+          font: .28rem "";
+          position: absolute;
+          width: 100%;
+          bottom: 0.2rem; }
+
+/*# sourceMappingURL=dingYue.css.map */

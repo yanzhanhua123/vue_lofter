@@ -1,0 +1,170 @@
+@charset "UTF-8";
+body {
+  background: #f3f5f4; }
+
+#title {
+  height: 1.3rem;
+  margin-bottom: .02rem;
+  background: #fff; }
+  #title .search {
+    float: left;
+    width: 1.4rem;
+    padding: .35rem 0 0 .45rem;
+    box-sizing: border-box; }
+    #title .search img {
+      width: .63rem; }
+  #title .nav .swiper-slide {
+    width: 2rem;
+    font: .55rem "";
+    text-align: center;
+    line-height: 1.3rem;
+    box-sizing: border-box; }
+    #title .nav .swiper-slide:nth-child(4) {
+      width: 2.5rem; }
+
+.container .swiper-slide:nth-child(1) .huoDong {
+  display: block; }
+  .container .swiper-slide:nth-child(1) .huoDong img {
+    width: 100%; }
+.container .swiper-slide:nth-child(1) .zhiding {
+  display: block;
+  margin-top: .6rem; }
+  .container .swiper-slide:nth-child(1) .zhiding img {
+    width: 100%; }
+  .container .swiper-slide:nth-child(1) .zhiding h4 {
+    font: .45rem/.45rem "";
+    color: #000;
+    padding: .5rem 0 .4rem 1.2rem;
+    background: url("../img/small/f04.png") no-repeat 0.45rem 0.15rem;
+    background-size: .46rem auto; }
+  .container .swiper-slide:nth-child(1) .zhiding p {
+    width: 9.92rem;
+    height: .9rem;
+    margin: 0 auto;
+    border-bottom: .01rem solid #cccccc;
+    font: .4rem ""; }
+.container .swiper-slide:nth-child(1) .huoDong2 {
+  display: block;
+  margin-top: .6rem; }
+  .container .swiper-slide:nth-child(1) .huoDong2 img {
+    width: 100%; }
+  .container .swiper-slide:nth-child(1) .huoDong2 p {
+    width: 9.92rem;
+    height: .9rem;
+    margin: 0 auto;
+    border-bottom: .01rem solid #cccccc;
+    font: .4rem "";
+    padding-top: .2rem; }
+.container .swiper-slide:nth-child(1) .huoDong3 {
+  display: block;
+  margin-top: .6rem; }
+  .container .swiper-slide:nth-child(1) .huoDong3 img {
+    width: 100%; }
+  .container .swiper-slide:nth-child(1) .huoDong3 p {
+    width: 9.92rem;
+    height: .9rem;
+    margin: 0 auto;
+    border-bottom: .01rem solid #cccccc;
+    font: .4rem "";
+    padding-top: .2rem; }
+.container .swiper-slide:nth-child(2) .s_slider1 {
+  height: 4.28rem; }
+  .container .swiper-slide:nth-child(2) .s_slider1 .swiper-pagination-bullet-active {
+    background: #fff; }
+  .container .swiper-slide:nth-child(2) .s_slider1 .swiper-slide img {
+    width: 100%; }
+.container .swiper-slide:nth-child(2) .s_slider2 {
+  padding-top: .3rem;
+  height: 2.8rem; }
+  .container .swiper-slide:nth-child(2) .s_slider2 .swiper-slide {
+    width: 2.4rem;
+    margin: 0 .15rem; }
+    .container .swiper-slide:nth-child(2) .s_slider2 .swiper-slide img {
+      width: 100%; }
+.container .swiper-slide:nth-child(2) #daRen {
+  /*动态*/ }
+  .container .swiper-slide:nth-child(2) #daRen .main {
+    height: 1.75rem;
+    background: #fff;
+    margin-bottom: .45rem; }
+    .container .swiper-slide:nth-child(2) #daRen .main h4 {
+      float: left;
+      font: .45rem/1.75rem "";
+      text-indent: .4rem;
+      color: #666; }
+    .container .swiper-slide:nth-child(2) #daRen .main img {
+      float: right;
+      width: 2.88rem;
+      margin: .4rem .45rem 0 0; }
+  .container .swiper-slide:nth-child(2) #daRen .dongTai {
+    margin-bottom: .45rem;
+    background: #fff; }
+    .container .swiper-slide:nth-child(2) #daRen .dongTai .title {
+      height: 1.8rem; }
+      .container .swiper-slide:nth-child(2) #daRen .dongTai .title dl {
+        zoom: 1; }
+        .container .swiper-slide:nth-child(2) #daRen .dongTai .title dl:after {
+          content: "";
+          clear: both;
+          display: block; }
+        .container .swiper-slide:nth-child(2) #daRen .dongTai .title dl dt {
+          float: left;
+          width: 4.8rem;
+          position: relative; }
+          .container .swiper-slide:nth-child(2) #daRen .dongTai .title dl dt img {
+            width: 1.22rem;
+            position: absolute;
+            top: .3rem;
+            left: .45rem; }
+          .container .swiper-slide:nth-child(2) #daRen .dongTai .title dl dt b {
+            font: .42rem/.42rem "";
+            position: absolute;
+            top: .68rem;
+            left: 2.11rem; }
+        .container .swiper-slide:nth-child(2) #daRen .dongTai .title dl dd {
+          float: right;
+          font: 0.37rem/.37rem "";
+          margin: .73rem .48rem 0 0; }
+    .container .swiper-slide:nth-child(2) #daRen .dongTai .zhuTu {
+      display: block;
+      width: 100%; }
+    .container .swiper-slide:nth-child(2) #daRen .dongTai .text {
+      padding: 0 .43rem; }
+      .container .swiper-slide:nth-child(2) #daRen .dongTai .text h4 {
+        height: 1.47rem;
+        overflow: hidden;
+        border-bottom: .02rem dotted #666666;
+        font: .42rem/1.47rem "";
+        text-indent: .72rem;
+        background: url("../img/small/i10.png") no-repeat left center;
+        background-size: .36rem auto; }
+        .container .swiper-slide:nth-child(2) #daRen .dongTai .text h4 b {
+          margin-right: .25rem; }
+      .container .swiper-slide:nth-child(2) #daRen .dongTai .text .huDong .zan {
+        height: 1.76rem; }
+        .container .swiper-slide:nth-child(2) #daRen .dongTai .text .huDong .zan dt {
+          float: left;
+          display: flex;
+          justify-content: space-between;
+          margin-top: .58rem;
+          width: 6.26rem; }
+          .container .swiper-slide:nth-child(2) #daRen .dongTai .text .huDong .zan dt img {
+            width: .68rem;
+            height: .59rem; }
+        .container .swiper-slide:nth-child(2) #daRen .dongTai .text .huDong .zan dd {
+          float: right;
+          margin-top: 0.6rem; }
+          .container .swiper-slide:nth-child(2) #daRen .dongTai .text .huDong .zan dd img {
+            width: .64rem; }
+      .container .swiper-slide:nth-child(2) #daRen .dongTai .text .huDong .reDu {
+        height: .66rem;
+        font: .37rem/.66rem ""; }
+        .container .swiper-slide:nth-child(2) #daRen .dongTai .text .huDong .reDu b {
+          margin-right: .36rem; }
+      .container .swiper-slide:nth-child(2) #daRen .dongTai .text .huDong .pinLun {
+        height: .95rem;
+        font: .38rem/.95rem ""; }
+        .container .swiper-slide:nth-child(2) #daRen .dongTai .text .huDong .pinLun b:nth-child(1) {
+          color: #007aff; }
+
+/*# sourceMappingURL=faXian.css.map */

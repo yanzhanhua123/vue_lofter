@@ -1,0 +1,194 @@
+@charset "UTF-8";
+body {
+  margin-bottom: 1.5rem; }
+
+header {
+  height: 1.24rem;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  background: #fff; }
+  header a:nth-child(1) {
+    width: 3.62rem;
+    border-bottom: 2px solid #000000;
+    font: 0.5rem/1.24rem "";
+    text-align: center;
+    margin-left: 1.8rem; }
+  header a:nth-child(2) {
+    width: 3.62rem;
+    font: 0.5rem/1.24rem "";
+    text-align: center; }
+  header a:nth-child(3) {
+    width: .6rem;
+    height: .47rem;
+    margin-left: .7rem;
+    margin-top: .42rem; }
+    header a:nth-child(3) img {
+      display: block;
+      width: 100%; }
+
+#ad {
+  margin-top: 1.24rem;
+  height: 3.6rem;
+  margin-bottom: .44rem;
+  background: #f3f5f4; }
+  #ad img {
+    display: block;
+    width: 100%; }
+
+/*动态*/
+.dongTai {
+  margin-bottom: .45rem; }
+  .dongTai .title {
+    height: 1.8rem; }
+    .dongTai .title dl {
+      zoom: 1; }
+      .dongTai .title dl:after {
+        content: "";
+        clear: both;
+        display: block; }
+      .dongTai .title dl dt {
+        float: left;
+        width: 4.8rem;
+        position: relative; }
+        .dongTai .title dl dt img {
+          width: 1.22rem;
+          position: absolute;
+          top: .3rem;
+          left: .45rem; }
+        .dongTai .title dl dt b {
+          font: .42rem/.42rem "";
+          position: absolute;
+          top: .68rem;
+          left: 2.11rem; }
+      .dongTai .title dl dd {
+        float: right;
+        font: 0.37rem/.37rem "";
+        margin: .73rem .48rem 0 0; }
+  .dongTai .zhuTu {
+    display: block;
+    width: 100%; }
+  .dongTai .text {
+    padding: 0 .43rem; }
+    .dongTai .text h4 {
+      height: 1.47rem;
+      overflow: hidden;
+      border-bottom: .02rem dotted #666666;
+      font: .42rem/1.47rem "";
+      text-indent: .72rem;
+      background: url("../../img/small/i10.png") no-repeat left center;
+      background-size: .36rem auto; }
+      .dongTai .text h4 b {
+        margin-right: .25rem; }
+    .dongTai .text .huDong .zan {
+      height: 1.76rem; }
+      .dongTai .text .huDong .zan dt {
+        float: left;
+        display: flex;
+        justify-content: space-between;
+        margin-top: .58rem;
+        width: 6.26rem; }
+        .dongTai .text .huDong .zan dt img {
+          width: .68rem;
+          height: .59rem; }
+      .dongTai .text .huDong .zan dd {
+        float: right;
+        margin-top: 0.6rem; }
+        .dongTai .text .huDong .zan dd img {
+          width: .64rem; }
+    .dongTai .text .huDong .reDu {
+      height: .66rem;
+      font: .37rem/.66rem ""; }
+      .dongTai .text .huDong .reDu b {
+        margin-right: .36rem; }
+    .dongTai .text .huDong .pinLun {
+      height: .95rem;
+      font: .38rem/.95rem ""; }
+      .dongTai .text .huDong .pinLun b:nth-child(1) {
+        color: #007aff; }
+
+/*可能感兴趣的人*/
+#tuiJian {
+  height: 10.08rem;
+  background: #f3f5f4;
+  padding-left: .42rem; }
+  #tuiJian > h4 {
+    font: .38rem/1.38rem "";
+    height: 1.38rem;
+    color: #666666; }
+  #tuiJian .swiper-container1 {
+    height: 8.19rem; }
+    #tuiJian .swiper-container1 .swiper-slide {
+      margin-right: .41rem;
+      background: #fff;
+      width: 7.93rem;
+      padding-top: .22rem; }
+      #tuiJian .swiper-container1 .swiper-slide .touXian {
+        display: block;
+        width: 1.54rem;
+        margin: 0 auto; }
+      #tuiJian .swiper-container1 .swiper-slide h4 {
+        font: .38rem/.38rem "";
+        text-align: center;
+        font-weight: 600;
+        margin: .6rem 0 .3rem; }
+      #tuiJian .swiper-container1 .swiper-slide h5 {
+        font: .33rem/.33rem "";
+        text-align: center;
+        color: #666;
+        margin: .3rem 0 .3rem; }
+      #tuiJian .swiper-container1 .swiper-slide .pic {
+        display: flex;
+        justify-content: space-between; }
+        #tuiJian .swiper-container1 .swiper-slide .pic img {
+          width: 2.65rem;
+          height: 2.65rem; }
+      #tuiJian .swiper-container1 .swiper-slide p {
+        width: 2.1rem;
+        height: .9rem;
+        border: 0.02rem solid #fd3736;
+        border-radius: 0.45rem;
+        margin: .45rem auto 0;
+        text-align: center;
+        font: .38rem/.9rem "";
+        color: #fd3736; }
+
+footer {
+  height: 1.5rem;
+  background: #fdfffe;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 50; }
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%; }
+    footer ul li {
+      position: relative;
+      width: .82rem; }
+      footer ul li:nth-child(2) {
+        width: .82rem; }
+        footer ul li:nth-child(2) img {
+          width: .82rem; }
+      footer ul li:nth-child(3) {
+        width: .91rem; }
+        footer ul li:nth-child(3) img {
+          width: .91rem; }
+      footer ul li a {
+        display: block;
+        padding-top: .23rem; }
+        footer ul li a img {
+          display: block;
+          width: .6rem;
+          margin: 0 auto; }
+        footer ul li a p {
+          text-align: center;
+          font: .28rem "";
+          position: absolute;
+          width: 100%;
+          bottom: 0.1rem; }
+
+/*# sourceMappingURL=index.css.map */
